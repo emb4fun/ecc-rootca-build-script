@@ -10,5 +10,4 @@ echo ""                     >> ./_cfg/openssl_root_head.cnf
 
 cat ./_cfg/openssl_root_head.cnf ./_cfg/openssl_root_body.cnf > ./_cfg/openssl_root.cnf 
 
-
 #*** EOF ***

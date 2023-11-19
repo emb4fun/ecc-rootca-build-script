@@ -17,5 +17,4 @@ export inter_o=$root_o
 export inter_ou="$inter_o Certificate Authority"
 export inter_cn="$inter_o Non-Public ECC CA"
 
-
 #*** EOF ***

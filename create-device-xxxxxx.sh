@@ -63,5 +63,7 @@ rm device.cfg
 # Copy in intermediate certificate
 cp ../../intermediate/certs/intermediate.cert.pem intermed.crt
      
-   
+# Create certification chain
+cat device.crt intermed.crt > chain.crt
+     
 #*** EOF ***
